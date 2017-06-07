@@ -1,6 +1,7 @@
 $cadet-gray: #8FA1B4;
 $cod-gray: #303030;
-
+$CodyStarfont: 'Codystar';
+$DroidSerif: 'Droid Serif';
 
 body {
   font-family: sans-serif;
@@ -9,19 +10,14 @@ body {
   overflow-y: scroll;
 }
 
-#footer-p {
-  padding: 30px 0;
-}
 
-/*Header*/
+/*===Header===*/
 .header {
   background: url("../images/oceanside-pic.jpg") no-repeat center center fixed;
-  // background-attachment: fixed;
-  // background-repeat: no-repeat;
   background-size: cover;
     h1 {
       color: white;
-      font-family: 'Codystar', cursive;
+      font-family: $CodyStarfont, cursive;
       font-size: 50px;
       text-transform: uppercase;
       margin-top: 120px;
@@ -31,7 +27,7 @@ body {
     }
     h2 {
       color: white;
-      font-family: 'Droid Serif', sans-serif;
+      font-family: $DroidSerif, sans-serif;
       margin-top: 60px;
       border: 1px solid white;
       background-color: $cod-gray;
@@ -43,4 +39,31 @@ body {
       margin-bottom: 60px;
       color: white;
     }
+}
+
+/*===about me===*/
+
+
+/*====skills===*/
+.skills {
+  ul li {
+    list-style-type: none;
+  }
+
+}
+
+
+/*===projects====*/
+
+
+
+/*===footer====*/
+footer {
+  div i {
+    display: inline-block;
+  }
+
+}
+#footer-p {
+  padding: 30px 0;
 }
