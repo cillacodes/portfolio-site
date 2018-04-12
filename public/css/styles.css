@@ -1,0 +1,9 @@
+body {
+  background: url("../images/eletuMacBooks.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+#hello {
+  font-style: italic;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,69 +1,91 @@
-$cadet-gray: #8FA1B4;
-$cod-gray: #303030;
-$CodyStarfont: 'Codystar';
-$DroidSerif: 'Droid Serif';
+// html {
+//   background: url("images/eletuMacBooks.jpg");
+// }
 
 body {
-  font-family: $DroidSerif,sans-serif;
-  color: #333;
-  overflow-x: hidden;
-  overflow-y: scroll;
-}
-
-
-/*===Header===*/
-.header {
-  background: url("../images/oceanside-pic.jpg") no-repeat center center fixed;
+  background: url("../images/eletuMacBooks.jpg") no-repeat center center fixed;
   background-size: cover;
-    h1 {
-      color: white;
-      font-family: $CodyStarfont, cursive;
-      font-size: 50px;
-      text-transform: uppercase;
-      margin-top: 120px;
-      margin-bottom: 50px;
-      border: 1px solid white;
-      background-color: $cod-gray;
-    }
-    h2 {
-      color: white;
-      font-family: $DroidSerif, sans-serif;
-      margin-top: 60px;
-      border: 1px solid white;
-      background-color: $cod-gray;
-      padding-top: 5px;
-      padding-bottom: 5px;
-    }
-    a i {
-      margin-top: 145px;
-      margin-bottom: 60px;
-      color: white;
-    }
 }
 
-/*===about me===*/
-
-
-/*====skills===*/
-.skills {
-  ul li {
-    list-style-type: none;
-  }
-
+#hello {
+  font-style: italic;
 }
 
+// .overlay {
+//   position: absolute;
+//   min-height: 100%;
+//   min-width: 100%;
+//   left: 0;
+//   top: 0;
+//   background: rgba(244, 244, 244, 0.79);
+// }
 
-/*===projects====*/
+// $cadet-gray: #8FA1B4;
+// $cod-gray: #303030;
+// $CodyStarfont: 'Codystar';
+// $DroidSerif: 'Droid Serif';
+
+// body {
+//   font-family: $DroidSerif,sans-serif;
+//   color: #333;
+//   overflow-x: hidden;
+//   overflow-y: scroll;
+// }
+
+
+// /*===Header===*/
+// .header {
+//   background: url("../images/oceanside-pic.jpg") no-repeat center center fixed;
+//   background-size: cover;
+//     h1 {
+//       color: white;
+//       font-family: $CodyStarfont, cursive;
+//       font-size: 50px;
+//       text-transform: uppercase;
+//       margin-top: 120px;
+//       margin-bottom: 50px;
+//       border: 1px solid white;
+//       background-color: $cod-gray;
+//     }
+//     h2 {
+//       color: white;
+//       font-family: $DroidSerif, sans-serif;
+//       margin-top: 60px;
+//       border: 1px solid white;
+//       background-color: $cod-gray;
+//       padding-top: 5px;
+//       padding-bottom: 5px;
+//     }
+//     a i {
+//       margin-top: 145px;
+//       margin-bottom: 60px;
+//       color: white;
+//     }
+// }
+
+// /*===about me===*/
+
+
+// /*====skills===*/
+// .skills {
+//   ul li {
+//     list-style-type: none;
+//   }
+
+// }
+
+
+// /*===projects====*/
 
 
 
-/*===footer====*/
-footer {
-  div i {
-    display: inline-block;
-  }
+// /*===footer====*/
+// footer {
+//   div i {
+//     display: inline-block;
+//   }
 
-}
-#footer-p {
-  padding: 30px 0;
-}
+// }
+// #footer-p {
+//   padding: 30px 0;
+// }
