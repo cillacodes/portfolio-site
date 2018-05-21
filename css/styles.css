@@ -35,15 +35,18 @@ body {
   color: rgba(214, 146, 0, 0.75);
 }
 
-footer {
+#links a {
   display: inline-block;
   padding: 1.5em 0 0 0;
   color: rgba(22, 175, 168, 0.75);
   cursor: pointer;
-  text-align: center;
 }
 
-footer li {
+#links a:hover {
+  color: rgba(214, 146, 0, 0.75);
+}
+
+#links li {
   display: inline;
   list-style-type: none;
   margin: 1.5em;
