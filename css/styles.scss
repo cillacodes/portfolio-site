@@ -1,6 +1,10 @@
 body {
-  background: url("../images/laptop01.jpg") no-repeat center center fixed;
+  font-family: 'Raleway', sans-serif;
   background-size: cover;
+  height: 100vh;
+  background-image: linear-gradient(60deg, rgba(241, 162, 58, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../images/laptop01.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .overlay {
@@ -11,7 +15,7 @@ body {
   top: 0;
 }
 
-.comingSoon {
+#main {
   display: flex;
   // justify-content: center;
   // align-items: center;
@@ -20,78 +24,28 @@ body {
   margin: 20% 20% 20% 20%;
   box-shadow: 5px 10px #a5a4a4;
   padding: 5% 5% 5% 5%;
+  border-radius: 10px;
 
   h1 {
     text-align: center;
+    font-size: 3.5em;
+    letter-spacing: 0.10em;
+  }
+  .status {
+    color: rgba(214, 146, 0, 0.75);
   }
 }
 
-// $cadet-gray: #8FA1B4;
-// $cod-gray: #303030;
-// $CodyStarfont: 'Codystar';
-// $DroidSerif: 'Droid Serif';
+footer {
+  display: inline-block;
+  padding: 1.5em 0 0 0;
+  color: rgba(22, 175, 168, 0.75);
+  cursor: pointer;
+  text-align: center;
 
-// body {
-//   font-family: $DroidSerif,sans-serif;
-//   color: #333;
-//   overflow-x: hidden;
-//   overflow-y: scroll;
-// }
-
-
-// /*===Header===*/
-// .header {
-//   background: url("../images/oceanside-pic.jpg") no-repeat center center fixed;
-//   background-size: cover;
-//     h1 {
-//       color: white;
-//       font-family: $CodyStarfont, cursive;
-//       font-size: 50px;
-//       text-transform: uppercase;
-//       margin-top: 120px;
-//       margin-bottom: 50px;
-//       border: 1px solid white;
-//       background-color: $cod-gray;
-//     }
-//     h2 {
-//       color: white;
-//       font-family: $DroidSerif, sans-serif;
-//       margin-top: 60px;
-//       border: 1px solid white;
-//       background-color: $cod-gray;
-//       padding-top: 5px;
-//       padding-bottom: 5px;
-//     }
-//     a i {
-//       margin-top: 145px;
-//       margin-bottom: 60px;
-//       color: white;
-//     }
-// }
-
-// /*===about me===*/
-
-
-// /*====skills===*/
-// .skills {
-//   ul li {
-//     list-style-type: none;
-//   }
-
-// }
-
-
-// /*===projects====*/
-
-
-
-// /*===footer====*/
-// footer {
-//   div i {
-//     display: inline-block;
-//   }
-
-// }
-// #footer-p {
-//   padding: 30px 0;
-// }
+    li {
+      display: inline;
+      list-style-type: none;
+      margin: 1.5em;
+    }
+}
